@@ -21,24 +21,24 @@
 
 ## How to use
 
-###1. Clone the repo
+1. Clone the repo
      ```bash
      git clone https://github.com/PhooSoanHan/ML-Project.git
      cd garbage-classification
-###2. Create a virtual environment
+2. Create a virtual environment
      ```bash
      python -m venv .venv
      .venv\Scripts\activate
-###3. Install Dependencies
+3. Install Dependencies
      ```bash
      pip install -r requirements.txt
-###4. Train Classifier
+4. Train Classifier
      ```bash
      python scripts/train_classifier.py
-###5. Test Classifier
+5. Test Classifier
      ```bash
      python scripts/test_model.py
-###6. Run CVAT
+6. Run CVAT
      ```bash
      cd cvat
      docker compose up -d
